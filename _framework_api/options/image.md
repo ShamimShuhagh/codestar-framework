@@ -27,7 +27,7 @@ array(
 > Front-End Basic Usage Example
 
 ```php?start_inline=1
-$image_id = cs_get_option( 'gallery_1' );
+$image_id = cs_get_option( 'image_1' );
 $attachment = wp_get_attachment_image_src( $image_id, 'full' );
 var_dump( $attachment );
 ```
